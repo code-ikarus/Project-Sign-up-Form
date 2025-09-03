@@ -1,0 +1,146 @@
+*{
+  font-family: Saira, sans-serif;
+}
+
+body{
+  height: 100%;
+  margin: 0;
+}
+
+#main-container{
+  display: flex;
+  min-height: 100vh;
+}
+
+#image-section{
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/background/buddy-an-lD8YO2V9PO0-unsplash.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  flex: 1;
+  color: rgb(0, 0, 0);
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.header-branding{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+  padding: 20px;
+  padding-top: 20%; 
+  font-size: 30px;
+  background-color: rgba(255, 255, 255, 0.192);
+  border-radius: 25px;
+}
+
+.logo{
+  width: 400px;
+  height: auto;
+}
+
+.image-credit {
+  font-size: 1em;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.801);
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+a{
+  text-decoration:underline;
+  color: rgb(255, 255, 255);
+}
+
+#login{
+  color: black;
+}
+
+#right-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
+    background-color: #a0a0a0;
+}
+
+#right-section p{
+  font-size: 2rem;
+}
+
+.top-text{
+  margin-bottom: 1px;
+}
+
+.middle-text{
+  margin-top: 1px;
+}
+.form-row{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1; 
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+label {
+  margin-bottom: 5px; 
+  
+} 
+input {
+
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px;
+  width: 100%; 
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid #3b82f6; 
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.1s ease-in;
+}
+
+button:hover{
+background-color: #272626;
+
+}
+h3{
+  font-size: 1.5rem;
+}
+#form-section {
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 0; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    max-width: 50%;
+    padding-left: 50px;
+    padding-right: 50%;  
+} 
