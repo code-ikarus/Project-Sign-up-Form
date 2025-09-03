@@ -13,7 +13,7 @@ body{
 }
 
 #image-section{
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("") no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("background/buddy-an-lD8YO2V9PO0-unsplash.jpg") no-repeat center center;
   background-size: cover;
   position: relative;
   flex: 1;
